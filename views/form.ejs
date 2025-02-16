@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Book - Admin Panel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  
+  <!-- Header with Navigation -->
+  <nav class="navbar navbar-dark bg-primary p-3">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">Bookstore Admin</a>
+      <div>
+        <a href="/admin/books" class="btn btn-outline-light me-2">View Books</a>
+        <a href="/logout" class="btn btn-danger">Logout</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Book Form -->
+  <div class="container mt-2">
+    <div class="card shadow-lg p-4 mx-auto w-50">
+      <h3 class="text-center mb-2">Add New Book</h3>
+      <form action="/create" method="POST">
+        <div class="mb-3">
+          <label for="title" class="form-label">Book Title</label>
+          <input type="text" class="form-control" id="title" name="title" required>
+        </div>
+        <div class="mb-3">
+          <label for="author" class="form-label">Author</label>
+          <input type="text" class="form-control" id="author" name="author" required>
+        </div>
+        <div class="mb-3">
+          <label for="price" class="form-label">Price (₹)</label>
+          <input type="number" class="form-control" id="price" name="price" required>
+        </div>
+        <div class="mb-3">
+          <label for="description" class="form-label">Description</label>
+          <textarea class="form-control" id="description" name="description" rows="3" required></textarea>
+        </div>
+        <!-- Changed the input type from "file" to "url" -->
+        <div class="mb-3">
+          <label for="image" class="form-label">Book Cover Image URL</label>
+          <input type="url" class="form-control" id="image" name="image" placeholder="https://example.com/book-cover.jpg" required>
+        </div>
+        <div class="form-check mb-3">
+          <input type="checkbox" class="form-check-input" id="bestseller" name="bestseller">
+          <label class="form-check-label" for="bestseller">Bestseller</label>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Add Book</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Bootstrap Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
