@@ -118,19 +118,19 @@ https://book-store-rm76.onrender.com
 
 ## Screenshots
 1. Login.ejs:
-![alt text](image.png)
+![alt text](Screen-shots/image.png)
 
 2. Form.ejs:
-![alt text](image-1.png)
+![alt text](Screen-shots/image-1.png)
 
 3. Books.ejs:
-![alt text](image-2.png) 
+![alt text](Screen-shots/image-2.png) 
 
 4. Index.ejs:
-![alt text](image-3-1.png)
+![alt text](Screen-shots/image-3-1.png)
 
 5. Allbooks.ejs:
-![alt text](image-4.png)
+![alt text](Screen-shots/image-4.png)
 
 ## Contributing
 1. Fork the repository
