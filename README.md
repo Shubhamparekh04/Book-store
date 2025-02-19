@@ -114,7 +114,7 @@ npm start
 
 ## Deployment
 The application is deployed on Render:
-[Live Demo](https://book-store-rm76.onrender.com)
+https://book-store-rm76.onrender.com
 
 ## Screenshots
 1. Login.ejs:
