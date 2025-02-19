@@ -134,7 +134,6 @@ app.get("/allbooks", (req, res) => {
   bookModel
     .find({})
     .then((data) => {
-      console.log(data);
       res.render("allbooks", { data });
     })
     .catch((err) => {
