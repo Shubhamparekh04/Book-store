@@ -112,6 +112,10 @@ npm start
 - Implement proper session management
 - Add input sanitization for forms
 
+## Deployment
+The application is deployed on Render:
+[Live Demo](https://book-store-rm76.onrender.com)
+
 ## Screenshots
 1. Login.ejs:
 ![alt text](image.png)
